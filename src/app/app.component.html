@@ -1,13 +1,19 @@
 <main class="content">
+
+  <!-- Sección "Sobre mí" -->
   <section id="about" class="section alt-bg about-section">
     <div class="about-text">
+      <!-- Nombre -->
       <h1 class="m1">Alejandro Valencia Diaz</h1>
+      <!-- Profesión -->
       <h2 class="m2">Desarrollador de software</h2>
+      <!-- Presentación personal -->
       <p>
         Hola, soy estudiante de Ingeniería en Sistemas en la Universidad Tecnológica de Pereira (UTP).
         Aunque aún no tengo experiencia laboral formal, he desarrollado varios proyectos personales que me han permitido fortalecer mis habilidades en programación 
         y resolver problemas reales con código.
       </p>
+      <!-- Más sobre intereses y enfoque personal -->
       <p>
         Me apasiona la programación, especialmente la de bajo nivel, donde puedo entender cómo funciona el sistema desde adentro y optimizar el rendimiento.
         Me gusta experimentar, aprender nuevas tecnologías, y siempre estoy buscando formas de mejorar mis habilidades como desarrollador.
@@ -15,95 +21,112 @@
     </div>
   </section>
 
-<section id="proyectos" class="projects-section">
-  <h2>PROYECTOS</h2>
-  <div class="projects-container">
+  <!-- Sección de proyectos personales -->
+  <section id="proyectos" class="projects-section">
+    <h2>PROYECTOS</h2>
+    <div class="projects-container">
 
-    <p-card class="project-card" header="App de Reservas">
-      <p>
-        App de Reservas de espacios comunitarios. 
-      </p>
-      <p-button [link]="true" icon="pi pi-arrow-up-right"/>
-      <a href="https://github.com/Deluxxexxx/PROYECTO" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
-      <div class="chip-group">
-        <p-chip label="Java"></p-chip>
-        <p-chip label="SpringBoot"></p-chip>
-        <p-chip label="HTML"></p-chip>
-        <p-chip label="CSS"></p-chip>
-      </div>
-    </p-card>
-
-    <p-card class="project-card" header="Casino CLI">
-      <p>
-        Simulador de casino en CLI (Tragaperras, BlackJack, Ruleta).
-      </p>
+      <!-- Proyecto: App de Reservas -->
+      <p-card class="project-card" header="App de Reservas">
+        <p>
+          App de Reservas de espacios comunitarios. 
+        </p>
         <p-button [link]="true" icon="pi pi-arrow-up-right"/>
-          <a href="https://github.com/Deluxxexxx/Casino" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
-      <div class="chip-group">
-        <p-chip label="C#"></p-chip>
-        <p-chip label="Spectre Console"></p-chip>
-      </div>
-    </p-card>
+        <!-- Enlace al repositorio del proyecto -->
+        <a href="https://github.com/Deluxxexxx/PROYECTO" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
+        <!-- Tecnologías usadas en este proyecto -->
+        <div class="chip-group">
+          <p-chip label="Java"></p-chip>
+          <p-chip label="SpringBoot"></p-chip>
+          <p-chip label="HTML"></p-chip>
+          <p-chip label="CSS"></p-chip>
+        </div>
+      </p-card>
 
-    <p-card class="project-card" header="Gestion de Proyectos (Front-End)">
-      <p>
-        App de gestion y manejo de proyectos.
-      </p>
+      <!-- Proyecto: Casino CLI -->
+      <p-card class="project-card" header="Casino CLI">
+        <p>
+          Simulador de casino en CLI (Tragaperras, BlackJack, Ruleta).
+        </p>
         <p-button [link]="true" icon="pi pi-arrow-up-right"/>
-          <a href="https://github.com/Deluxxexxx/PROYECTO-FRONTEND" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
-      <div class="chip-group">
-        <p-chip label="Angular"></p-chip>
-        <p-chip label="JavaScript"></p-chip>
-        <p-chip label="TypeScript"></p-chip>
-        <p-chip label="HTML"></p-chip>
-        <p-chip label="CSS"></p-chip>
-      </div>
-    </p-card>
+        <a href="https://github.com/Deluxxexxx/Casino" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
+        <!-- Tecnologías usadas en este proyecto -->
+        <div class="chip-group">
+          <p-chip label="C#"></p-chip>
+          <p-chip label="Spectre Console"></p-chip>
+        </div>
+      </p-card>
 
-    <p-card class="project-card" header="Gestion de Proyectos (Back-End)">
-      <p>
-        App de gestion y manejo de proyectos.
-      </p>
+      <!-- Proyecto: Frontend de Gestión de Proyectos -->
+      <p-card class="project-card" header="Gestion de Proyectos (Front-End)">
+        <p>
+          App de gestion y manejo de proyectos.
+        </p>
         <p-button [link]="true" icon="pi pi-arrow-up-right"/>
-          <a href="https://github.com/Deluxxexxx/PROYECTO-BACKEND" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
-      <div class="chip-group">
-        <p-chip label="JavaScript"></p-chip>
-        <p-chip label="NodeJS"></p-chip>
-      </div>
-    </p-card>
+        <a href="https://github.com/Deluxxexxx/PROYECTO-FRONTEND" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
+        <!-- Tecnologías usadas en este proyecto -->
+        <div class="chip-group">
+          <p-chip label="Angular"></p-chip>
+          <p-chip label="JavaScript"></p-chip>
+          <p-chip label="TypeScript"></p-chip>
+          <p-chip label="HTML"></p-chip>
+          <p-chip label="CSS"></p-chip>
+        </div>
+      </p-card>
 
-  </div>
-</section>
+      <!-- Proyecto: Backend de Gestión de Proyectos -->
+      <p-card class="project-card" header="Gestion de Proyectos (Back-End)">
+        <p>
+          App de gestion y manejo de proyectos.
+        </p>
+        <p-button [link]="true" icon="pi pi-arrow-up-right"/>
+        <a href="https://github.com/Deluxxexxx/PROYECTO-BACKEND" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Ver Proyecto</a>
+        <!-- Tecnologías usadas en este proyecto -->
+        <div class="chip-group">
+          <p-chip label="JavaScript"></p-chip>
+          <p-chip label="NodeJS"></p-chip>
+        </div>
+      </p-card>
 
-<section id="tecnologias" class="tecnologias-section">
-  <h2>TECNOLOGÍAS</h2>
-  <div class="custom-chip-container">
-    <p-chip label="C#"></p-chip>
-    <p-chip label="C++"></p-chip>
-    <p-chip label="Java"></p-chip>
-    <p-chip label="Rust"></p-chip>
-    <p-chip label="Axum"></p-chip>
-    <p-chip label="SpringBoot"></p-chip>
-    <p-chip label="PostgreSQL"></p-chip>
-    <p-chip label="Qt"></p-chip>
-    <p-chip label="Git"></p-chip>
-  </div>
-</section>
+    </div>
+  </section>
 
-<section id="contact" class="section contact">
-  <h2>CONTACTO</h2>
+  <!-- Sección de tecnologías dominadas -->
+  <section id="tecnologias" class="tecnologias-section">
+    <h2>TECNOLOGÍAS</h2>
+    <div class="custom-chip-container">
+      <!-- Chips con nombres de tecnologías -->
+      <p-chip label="C#"></p-chip>
+      <p-chip label="C++"></p-chip>
+      <p-chip label="Java"></p-chip>
+      <p-chip label="Rust"></p-chip>
+      <p-chip label="Axum"></p-chip>
+      <p-chip label="SpringBoot"></p-chip>
+      <p-chip label="PostgreSQL"></p-chip>
+      <p-chip label="Qt"></p-chip>
+      <p-chip label="Git"></p-chip>
+    </div>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contact" class="section contact">
+    <h2>CONTACTO</h2>
     <div>
+      <!-- Chip con email -->
       <div>
         <p-chip label="alejandro.valencia5@utp.edu.co" icon="pi pi-google"></p-chip>
       </div>
+      <!-- Chip con número telefónico -->
       <div>
         <p-chip label="+57 300 346 3218" icon="pi pi-phone"></p-chip>
       </div>
+      <!-- Chip con enlace a GitHub -->
       <div>
         <a href="https://github.com/Deluxxexxx" target="_blank" style="text-decoration: none;">
           <p-chip label="Github" icon="pi pi-arrow-up-right"></p-chip>
         </a>
       </div>
     </div>
-</section>
+  </section>
+
 </main>

@@ -1,106 +1,124 @@
+/* Estilos generales del body */
 body {
-  margin: 0;
-  background-color: #0F172A;
-  padding-top: 60px;
+  margin: 0; /* Elimina márgenes por defecto */
+  background-color: #0F172A; /* Fondo oscuro */
+  padding-top: 60px; /* Espacio para navbar o header fijo */
 }
 
+/* Colores de títulos principales */
 h2, h1 {
-  color: white;
+  color: white; /* Texto blanco para títulos */
 }
 
+/* Estilo del texto principal y botones tipo enlace */
 p, .link-button {
-  color: #94A3B8;
+  color: #94A3B8; /* Color gris claro */
 }
 
+/* Secciones generales con padding */
 .section {
-  padding: 3rem 2rem;
+  padding: 3rem 2rem; /* Espaciado interno amplio */
 }
 
+/* Sección "about" con diseño flexible */
 .about-section {
-  font-size: large;
-  background-color: #0F172A;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 2rem;
+  font-size: large; /* Texto grande */
+  background-color: #0F172A; /* Fondo igual que el body */
+  display: flex; /* Diseño en línea flexible */
+  flex-wrap: wrap; /* Permite envolver contenido */
+  align-items: center; /* Alinea verticalmente al centro */
+  gap: 2rem; /* Espacio entre elementos */
 }
 
+/* Contenedor de texto dentro de la sección "about" */
 .about-text {
-  flex: 1;
-  min-width: 250px;
+  flex: 1; /* Ocupa espacio disponible */
+  min-width: 250px; /* Ancho mínimo */
 }
 
+/* Clase m1 para títulos más grandes */
 .m1 {
-  font-size: 2rem;
+  font-size: 2rem; /* Título grande */
 }
 
+/* Clase m2 para subtítulos más pequeños y ajustados */
 .m2 {
-  margin-top: -15px;
-  font-size: 1.5rem;
+  margin-top: -15px; /* Ajuste hacia arriba */
+  font-size: 1.5rem; /* Tamaño intermedio */
 }
 
+/* Sección de tecnologías */
 .tecnologias-section {
-  background-color: #0F172A;
-  padding: 2rem;
-  text-align: center;
+  background-color: #0F172A; /* Fondo oscuro */
+  padding: 2rem; /* Espaciado interno */
+  text-align: center; /* Centra contenido */
 }
 
+/* Contenedor personalizado para chips */
 .custom-chip-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  display: flex; /* Distribución flexible */
+  flex-wrap: wrap; /* Permite múltiples líneas */
+  justify-content: center; /* Centrado horizontal */
+  gap: 1rem; /* Espacio entre chips */
+  margin-top: 1rem; /* Separación del contenido anterior */
 }
 
+/* Sección de proyectos */
 .projects-section {
-  padding: 2rem;
-  background-color: #0F172A;
-  color: white;
+  padding: 2rem; /* Espaciado interno */
+  background-color: #0F172A; /* Fondo oscuro */
+  color: white; /* Texto blanco */
 }
 
+/* Título dentro de la sección de proyectos */
 .projects-section h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 2rem;
+  text-align: center; /* Centrado */
+  margin-bottom: 2rem; /* Separación inferior */
+  font-size: 2rem; /* Tamaño del título */
 }
 
+/* Contenedor grid para las tarjetas de proyectos */
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  display: grid; /* Diseño en cuadrícula */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Columnas responsivas */
+  gap: 2rem; /* Espacio entre tarjetas */
 }
 
+/* Estilo individual para cada tarjeta de proyecto */
 .project-card {
-  background-color: #1e293b;
-  border: none;
-  color: #e2e8f0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 1rem;
-  padding: 1rem;
+  background-color: #1e293b; /* Fondo más claro que el body */
+  border: none; /* Sin borde */
+  color: #e2e8f0; /* Texto claro */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra para profundidad */
+  border-radius: 1rem; /* Bordes redondeados */
+  padding: 1rem; /* Espaciado interno */
 }
 
+/* Grupo de chips en cada tarjeta de proyecto */
 .chip-group {
-  margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  margin-top: 1rem; /* Separación del contenido superior */
+  display: flex; /* Diseño flexible */
+  flex-wrap: wrap; /* Permite múltiples líneas */
+  gap: 0.5rem; /* Espacio entre chips */
 }
 
+/* Estilos personalizados para los chips de PrimeNG */
 ::ng-deep .p-chip {
-  background-color: #0f172a;
-  color: #00ffd9;
-  border-radius: 999px;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border: 1px solid #00ffd9;
+  background-color: #0f172a; /* Fondo oscuro igual al body */
+  color: #00ffd9; /* Color cian para el texto */
+  border-radius: 999px; /* Bordes totalmente redondeados */
+  font-weight: bold; /* Texto en negrita */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  border: 1px solid #00ffd9; /* Borde del mismo color que el texto */
 }
 
 /* Contacto */
+/* Sección de contacto */
 .contact {
-  background-color: #0F172A;
+  background-color: #0F172A; /* Fondo oscuro */
 }
 
+/* Estilo para cada div dentro de la sección de contacto */
 .contact div {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; /* Separación entre elementos */
 }
