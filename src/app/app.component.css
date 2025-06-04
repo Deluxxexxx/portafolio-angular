@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #0F172A;
+  padding-top: 60px;
+}
+
+h2, h1 {
+  color: white;
+}
+
+p, .link-button {
+  color: #94A3B8;
+}
+
+.section {
+  padding: 3rem 2rem;
+}
+
+.about-section {
+  font-size: large;
+  background-color: #0F172A;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.m1 {
+  font-size: 2rem;
+}
+
+.m2 {
+  margin-top: -15px;
+  font-size: 1.5rem;
+}
+
+.tecnologias-section {
+  background-color: #0F172A;
+  padding: 2rem;
+  text-align: center;
+}
+
+.custom-chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.projects-section {
+  padding: 2rem;
+  background-color: #0F172A;
+  color: white;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #1e293b;
+  border: none;
+  color: #e2e8f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.chip-group {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+::ng-deep .p-chip {
+  background-color: #0f172a;
+  color: #00ffd9;
+  border-radius: 999px;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 1px solid #00ffd9;
+}
+
+/* Contacto */
+.contact {
+  background-color: #0F172A;
+}
+
+.contact div {
+  margin-bottom: 0.5rem;
+}
